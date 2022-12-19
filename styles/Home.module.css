@@ -4,28 +4,12 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 1rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .title a {
@@ -42,18 +26,48 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 3.9rem;
 }
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  max-width: 60rem;
+}
+
+.aboutSection {
+  padding: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.aboutTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2.5rem;
+  max-width: 60rem;
+}
+
+.aboutTitle
+.aboutDescription {
+  text-align: left;
+}
+
+.aboutDescription {
+  margin: 2rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  max-width: 60rem;
 }
 
 .code {
@@ -71,6 +85,42 @@
   justify-content: center;
   flex-wrap: wrap;
   max-width: 800px;
+}
+
+.buttonDiv {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.contactBtn {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  background-color: #1C6EA4;
+  color: #eeeeee;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.contactBtn:hover {
+  background-color: #2e8b57;
+  color: #eeeeee;
+}
+
+.secondaryBtn {
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  background-color: #dc143c;
+  color: #eeeeee;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 4rem;
+}
+
+.secondaryBtn:hover {
+  background-color: #8a2be2;
+  color: #eeeeee;
 }
 
 .card {

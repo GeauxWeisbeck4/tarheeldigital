@@ -1,0 +1,23 @@
+.navContainer {
+    margin: 0;
+    padding: 0 2rem;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navLink {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 1.5rem;
+    padding-bottom: 4rem;
+}
+
+.navLink:hover {
+    color: #0070f3;
+}
